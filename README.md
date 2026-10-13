@@ -20,6 +20,8 @@ Java와 Spring을 기반으로 업무 규칙을 데이터 구조와 API로 구�
 ### 위굴 Backend · [SaGongSa-404/404_BE](https://github.com/SaGongSa-404/404_BE)
 예산, 위시, 구매 결정, 알림, 회고가 하나로 이어지는 소비 의사결정 서비스
 
+📱 **Google Play 출시** · [위굴 다운로드](https://play.google.com/store/apps/details?id=com.sa0sa.wigul)
+
 - 구매 결정(GO/STOP), 예산, 알림 상태를 **단일 트랜잭션**으로 갱신하고 CHECK, partial unique index, trigger로 DB 불변조건 보장
 - **Idempotency-Key + partial unique index**로 더블탭과 timeout 재시도에 따른 중복 생성 방지
 - **GCP VM standby 배포**: 8081 후보 기동 → Health Check → Caddy 전환 → 8080 복귀, 실패 시 자동 복구
